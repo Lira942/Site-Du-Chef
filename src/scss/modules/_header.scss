@@ -1,0 +1,33 @@
+header{
+    background-image: url(../../../public/images/banner1.jpg);
+    background-size: 1080px 700px;
+    background-repeat: no-repeat;
+    height: 600px;
+}
+
+header>div{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+ #paragraphes>p{
+     height: 100px;
+     width: 100%;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     font-size: 45px;
+     font-family: 'Courgette', cursive;
+     color: white;
+}
+
+#whatever{
+    font-size: 30px;   
+}
+#taste{
+    color: $rode;
+}
+
