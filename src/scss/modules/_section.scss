@@ -70,13 +70,15 @@ h4{
     background-color: black;
     display: flex;
     flex-direction: column;
-    height: 370px;
+    height: 100%;
+    margin-top: 40px;
 }
 
 #chef>h4{
     color: white;
     text-align: center;
     margin-top: 50px;
+    margin-bottom: 30px;
     height: 100%;
     
 }
@@ -85,9 +87,32 @@ h4{
     display: flex;
     justify-content: space-evenly;
     width: 100%;
-    align-items: center;
+    color: white;
+    text-align: center;
 }
 
-#chef>div>img{
+#chef>div>div>img{
     width: 170px;
+    border-bottom: white 1px solid;
+}
+// FIN 3e SECTION
+
+// 4e SECTION
+#book_table{
+    border: solid;
+    margin-top: 20px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#book{
+    width: 55%;
+    height: 400px;
+    background-image: url(../../../public/images/book_table_bg.jpg);
+    background-size: cover;
+}
+#book>p{
+    color: white;
+    text-align: center;
 }

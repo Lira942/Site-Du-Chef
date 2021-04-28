@@ -10055,13 +10055,15 @@ h4 {
   background-color: black;
   display: flex;
   flex-direction: column;
-  height: 370px;
+  height: 100%;
+  margin-top: 40px;
 }
 
 #chef > h4 {
   color: white;
   text-align: center;
   margin-top: 50px;
+  margin-bottom: 30px;
   height: 100%;
 }
 
@@ -10069,11 +10071,34 @@ h4 {
   display: flex;
   justify-content: space-evenly;
   width: 100%;
+  color: white;
+  text-align: center;
+}
+
+#chef > div > div > img {
+  width: 170px;
+  border-bottom: white 1px solid;
+}
+
+#book_table {
+  border: solid;
+  margin-top: 20px;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
   align-items: center;
 }
 
-#chef > div > img {
-  width: 170px;
+#book {
+  width: 55%;
+  height: 400px;
+  background-image: url(../../../public/images/book_table_bg.jpg);
+  background-size: cover;
+}
+
+#book > p {
+  color: white;
+  text-align: center;
 }
 
 body {
