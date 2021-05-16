@@ -1,27 +1,18 @@
 header{
-    background-image: url(../../../public/images/banner1.jpg);
     background-size: 1080px 700px;
     background-repeat: no-repeat;
     height: 600px;
+    // position: relative;
 }
 
 header>div{
     height: 100%;
+    width: 97.9%;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
-}
-
- #paragraphes>p{
-     height: 100px;
-     width: 100%;
-     display: flex;
-     justify-content: center;
-     align-items: center;
-     font-size: 45px;
-     font-family: 'Courgette', cursive;
-     color: white;
+    background-size: cover;
 }
 
 #whatever{
@@ -31,3 +22,37 @@ header>div{
     color: $rode;
 }
 
+.carousel_slide>div>div>img{
+    filter: brightness(10%);
+}
+
+.carousel-inner{
+    display: flex;
+    align-items: center;
+}
+
+.carousel-inner>:last-child{
+   width: 100%;
+   display: flex;
+   flex-direction: column;
+//   justify-content: center;
+}
+
+.carousel-inner>:last-child>p{
+    justify-content: center;
+    text-align: center;
+}
+
+#paragraphes{
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+}
+
+#paragraphes>p{
+    height: 100px;
+    width: 100%;
+    font-size: 45px;
+    font-family: 'Courgette', cursive;
+    color: white;
+}
