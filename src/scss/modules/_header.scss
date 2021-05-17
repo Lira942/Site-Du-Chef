@@ -1,12 +1,10 @@
 header{
-    background-size: 1080px 700px;
-    background-repeat: no-repeat;
-    height: 600px;
-    // position: relative;
+   width: 100%;
+   padding: 0%;
+   margin: 0%;
 }
 
 header>div{
-    height: 100%;
     width: 97.9%;
     display: flex;
     justify-content: center;
@@ -21,6 +19,7 @@ header>div{
 #taste{
     color: $rode;
 }
+
 
 .carousel_slide>div>div>img{
     filter: brightness(10%);
@@ -50,9 +49,15 @@ header>div{
 }
 
 #paragraphes>p{
-    height: 100px;
     width: 100%;
     font-size: 45px;
     font-family: 'Courgette', cursive;
     color: white;
+}
+
+@media (min-width:760px) and (max-width:1024px){
+    header{
+        width: 800px;
+        height: 100%;
+    }
 }
